@@ -87,3 +87,38 @@ body {
 	display: block;
 	transition: transform 0.3s ease;
 }
+/* === Form === */
+form {
+	max-width: 50%;
+	max-height: max-content;
+	border-radius: 12px;
+	margin: 0 auto;
+}
+/* === Label Form === */
+.form-label {
+	font-size: large;
+	color: #000;
+}
+/* === Input, Select, Textarea === */
+.form-control,
+.form-select {
+	border: none;
+	border-radius: 6px;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.2s ease, transform 0.1s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+	box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+	transform: translateY(-2px);
+	outline: none;
+}
+.auto-expand {
+	min-height: 100px;
+	transition: all 0.3s ease;
+}
+
+.auto-expand:focus {
+	min-height: 200px;
+}
