@@ -120,5 +120,5 @@ form {
 }
 
 .auto-expand:focus {
-	min-height: 200px; /* memanjang saat aktif */
+	min-height: 200px;
 }
