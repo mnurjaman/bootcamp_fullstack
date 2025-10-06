@@ -1,0 +1,124 @@
+/* === Body === */
+body {
+	background-color: #e3e7eb;
+	font-family: "Roboto", sans-serif;
+}
+
+/* === Navbar === */
+.bg-custom {
+	background-color: #f4f3f3;
+}
+.navbar-brand img {
+	height: 32px;
+	width: auto;
+}
+.custom-toggler {
+	padding: 0.4rem 0.6rem;
+}
+.custom-toggler .navbar-toggler-icon {
+	width: 24px;
+	height: 24px;
+	background-size: 24px 24px;
+}
+.navbar-nav .nav-link {
+	padding: 0 1rem;
+}
+
+/* === Buttons (all buttons including navbar) === */
+.btn-anim {
+	background-color: #000;
+	color: white;
+	border: none;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.btn-anim:hover {
+	background-color: #333;
+	transform: scale(1.1);
+	color: white;
+}
+
+/* === Article Section === */
+.article_text {
+	text-align: justify;
+	line-height: 26px;
+	margin-right: 30px;
+}
+
+/* === Social Icons === */
+.social-icon {
+	width: 60px;
+	height: 60px;
+	background-color: #000;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+.social-icon:hover {
+	transform: scale(1.1);
+	background-color: #333;
+	color: white;
+}
+
+/* === Profile Card === */
+.profile-card {
+	width: 300px;
+	border-radius: 16px;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	margin: 0 auto 20px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.profile-card:hover {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+	transform: scale(1.05);
+}
+.profile-card__image {
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: transform 0.3s ease;
+}
+/* === Form === */
+form {
+	max-width: 50%;
+	max-height: max-content;
+	border-radius: 12px;
+	margin: 0 auto;
+}
+/* === Label Form === */
+.form-label {
+	font-size: large;
+	color: #000;
+}
+/* === Input, Select, Textarea === */
+.form-control,
+.form-select {
+	border: none;
+	border-radius: 6px;
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.2s ease, transform 0.1s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+	box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+	transform: translateY(-2px);
+	outline: none;
+}
+.auto-expand {
+	min-height: 100px;
+	transition: all 0.3s ease;
+}
+
+.auto-expand:focus {
+	min-height: 200px; /* memanjang saat aktif */
+}
